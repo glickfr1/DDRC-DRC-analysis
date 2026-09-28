@@ -1,5 +1,18 @@
 # DDRC Dose-Response Analysis Tool
 
+Developed by Chloe Larson, Francesca Curreli, Loreto Carvallo-Torres, and J. Fraser Glickman for drug-discovery and high-throughput screening workflows at the Fisher Drug Discovery Resource Center (DDRC), The Rockefeller University.
+
+Copyright © 2026 The Rockefeller University.
+## License
+
+This software is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+
+For licensing inquiries or requests for permissions beyond the terms of this license, please contact the Fisher Drug Discovery Resource Center by opening an Issue in this GitHub repository.
+
+## What does this tool do?
+
+This tool takes raw high-throughput screening (HTS) measurements and a separate compound database, links the two files by plate + well, and produces normalized screening results.
+
 The **DDRC Dose-Response Analysis Tool** is a command-line Python program for analyzing compound dose-response data. It summarizes replicate measurements, fits four-parameter logistic (4PL) dose-response curves, calculates IC50 and other curve metrics, generates individual curve plots and plate maps, and produces an Excel summary workbook.
 
 The tool is designed to be useful with real-world assay datasets rather than requiring a single fixed plate layout or file format.
